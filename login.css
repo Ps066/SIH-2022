@@ -1,0 +1,104 @@
+.logo {
+  height: 250px;
+  width: 250px;
+}
+#logo1 {
+  max-width: 100%;
+  max-height: 100%;
+}
+.Container {
+  display: grid;
+  grid-template-columns: 30% 70%;
+}
+.signup {
+  /*background-color: #adc2eb , */
+  /*background: linear-gradient(
+    0deg,
+    rgba(19, 136, 8, 1) 0%,
+    rgba(255, 255, 255, 1) 45%,
+    rgba(255, 255, 255, 1) 50%,
+    rgba(255, 255, 255, 1) 55%,
+    rgba(255, 153, 51, 1) 100%
+  );*/
+  /*box-shadow: 20px 20px 30px 10px grey;
+  /*background: linear-gradient(
+    307deg,
+    rgba(19, 136, 8, 1) 0%,
+    rgba(255, 255, 255, 1) 48%,
+   /* rgba(255, 255, 255, 1) 50%,
+    rgba(255, 255, 255, 1) 52%,*/
+  /*rgb(255, 117, 26) 100%
+  );*/
+  background-color: /*#ff6600  #8080ff #ff944d #cce6ff #6666ff #66ff99 #ff0066 #00a588*/ #a1a1ff;
+  border-radius: 10px;
+  width: 550px;
+  height: 450px;
+  margin-top: 70px;
+}
+#heading {
+  font-family: "Lobster Two", cursive;
+  font-weight: 900;
+  font-style: bold;
+  color: white;
+  text-align: center;
+}
+.input {
+  border-radius: 7px;
+  border-style: none;
+  margin: 10px;
+  padding: 10px;
+  padding-top: 10px;
+  margin-top: 20px;
+  text-align: center;
+  align-content: center;
+}
+#firstin {
+  margin: 50px;
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.subheading {
+  /*font-family: "Oleo Script", cursive;*/
+
+  font-family: "Abel", sans-serif;
+  font-style: bold;
+  color: white;
+}
+.options {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+.optcard {
+  font-family: "Abel", sans-serif;
+  border-radius: 7px;
+  /*font-family: "Lobster Two", cursive;*/
+  /*font-family: "Fredoka One", cursive;*/
+  margin: 10px;
+  padding: 10px;
+  height: 20px;
+
+  color: white;
+  font-weight: 900;
+
+  text-align: center;
+}
+#one {
+  background-color: #ff6600;
+}
+#two {
+  background-color: white;
+  color: #000080;
+}
+#three {
+  background-color: #138808;
+}
+.alogo {
+  padding: 20px;
+  margin-top: 20px;
+  padding-left: 240px;
+  align-content: center;
+}
+/*.fon {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}*/

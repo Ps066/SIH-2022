@@ -1,0 +1,25 @@
+.sign {
+  /*background-color: #adc2eb , */
+  /*background: linear-gradient(
+      0deg,
+      rgba(19, 136, 8, 1) 0%,
+      rgba(255, 255, 255, 1) 45%,
+      rgba(255, 255, 255, 1) 50%,
+      rgba(255, 255, 255, 1) 55%,
+      rgba(255, 153, 51, 1) 100%
+    );*/
+  /*box-shadow: 20px 20px 30px 10px grey;
+    /*background: linear-gradient(
+      307deg,
+      rgba(19, 136, 8, 1) 0%,
+      rgba(255, 255, 255, 1) 48%,
+     /* rgba(255, 255, 255, 1) 50%,
+      rgba(255, 255, 255, 1) 52%,*/
+  /*rgb(255, 117, 26) 100%
+    );*/
+  background-color: /*#ff6600  #8080ff #ff944d #cce6ff #6666ff #66ff99 #ff0066 #00a588*/ #a1a1ff;
+  border-radius: 10px;
+  width: 550px;
+  height: 550px;
+  margin-top: 70px;
+}
