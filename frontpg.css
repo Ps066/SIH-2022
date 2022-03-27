@@ -30,3 +30,9 @@
   color: white;
   text-align: center;
 }
+.proceed {
+  position: relative;
+  left: 150px;
+  background-color: #ff6600;
+  color: white;
+}
