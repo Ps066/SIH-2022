@@ -7,9 +7,15 @@
     <link rel="stylesheet" href="login.css">
     <link rel="stylesheet" href="hint.css">
     <link rel="stylesheet" href="frontpg.css">
-    <title>Document</title>
+    <title>Verify</title>
 </head>
 <body>
+    <script>
+        function proceed() {
+            window.location.replace('https://ps066.github.io/SIH-2022/login.html');
+
+        }
+    </script>
     <div class="Container">
         <div class="logo">
             <span  class="hint--bottom hint--rounded hint--bounce " aria-label="Keep learning india!">
@@ -17,7 +23,7 @@
             </span>
         </div>
         <div class="sign">
-            <h1 id="heading">Welcome</h1>
+            <h1 id="heading1">Welcome</h1>
             <div id="firstin">
                 <h2 class="subheading" >Exam Seat No.</h2>
                 <span  class="hint--bottom hint--rounded hint--bounce hint--warning " aria-label="Enter your Exam Seat no.!">
@@ -37,7 +43,7 @@
                 </div>
                 </span>
                 <span  class="hint--bottom hint--rounded hint--bounce " aria-label="Upload an Image of your aadhar card, our System will auto verify it !!">
-                <div class="optcard" id="two">
+                <div class="optcard" id="two" onclick="proceed()">
                     Proceed 
                 </div>
                 </span>

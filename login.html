@@ -21,6 +21,12 @@
     <title>login</title>
 </head>
 <body>
+    <script>
+        function back() {
+            window.location.replace('https://ps066.github.io/SIH-2022/index');
+
+        }
+    </script>
     <div class="Container">
     <div class="logo">
         <span  class="hint--bottom hint--rounded hint--bounce " aria-label="Keep learning india!">
@@ -36,17 +42,17 @@
             </span>
         </div>
         <div class="options">
-            <span  class="hint--bottom-left hint--rounded hint--bounce " aria-label="An OTP will be sent to your registered mobile number!">
-            <div class="optcard" id="one">
+            <span  class="hint--bottom-left hint--rounded hint--bounce hint--warning" aria-label="If you entered wrong information you can correct it!">
+            <div class="optcard" id="one" onclick="back()">
                  Back
             </div>
             </span>
-            <span  class="hint--bottom hint--rounded hint--bounce " aria-label="Upload an Image of your aadhar card, our System will auto verify it !!">
+            <span  class="hint--bottom hint--rounded hint--bounce " aria-label="Verify your aadhar!!">
             <div class="optcard" id="two">
                 Verify 
             </div>
             </span>
-            <span  class="hint--bottom-right hint--rounded hint--bounce " aria-label="Already Verified? sign in">
+            <span  class="hint--bottom-right hint--rounded hint--bounce " aria-label="Getting Trouble in verification? ">
             <div class="optcard" id="three">
                 Help
             </div>

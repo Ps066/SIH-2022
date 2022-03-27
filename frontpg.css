@@ -23,3 +23,10 @@
   height: 550px;
   margin-top: 70px;
 }
+#heading1 {
+  font-family: "Lobster Two", cursive;
+  font-weight: 900;
+  font-style: bold;
+  color: white;
+  text-align: center;
+}
